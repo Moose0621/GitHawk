@@ -1,3 +1,10 @@
+name: Run mobsfscan scan
+
+on:
+  workflow_dispatch:
+  push:
+
+  
 jobs:
   build:
     runs-on: ubuntu-latest
